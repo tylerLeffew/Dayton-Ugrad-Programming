@@ -1,0 +1,33 @@
+Q1. Did we use a variable to store a “vital” piece of information (Hint: picture)?
+
+A. we used cards to store values.
+
+Q2.What did we call our variable? Can you think of a “better” variable name than the one above?
+
+In the game, we call each variable by its rank first, then the suit. For example, “Jack of Diamonds”.
+
+
+We can follow Java variable naming conventions.Firstly,  by starting with lowercase letters and using capital case letters for the second word. For example, “jackSpades”. Secondly, Java variables must start with letters or the $ or _ character, so a better choice would be spelling number. For example, “fourHearth”.
+queenDiamond
+eightClubs
+kingHeart
+
+Q3. What data we stored? Was it necessary to perform the task? 
+
+Each card stores the suit and rank of itself, for example “7 of Hearts”. Yes, having access to the data is vital to make changes based on the game rules.
+
+Q4.The webpage lists several data types, and lists all of the primitive data types in Java. 
+
+1-Byte.
+2-Short.
+3-Char.
+4-Int.
+5-Long.
+6-Float.
+7-Double.
+
+Q5. Is there a primitive data type for “Card(s)”?  
+No, there are no primitive data types  for cards.
+
+Q6.
+No answer.
