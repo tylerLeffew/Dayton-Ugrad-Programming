@@ -10,12 +10,12 @@ public class lab2Fahrenhite2Celsius {
        {
             Scanner luigi = new Scanner(System.in);
             
-            System.out.println("Enter a Fehrenhite dgree: ");
+            System.out.println("Enter a Fehrenhite degree: ");
             double f = Math.round((luigi.nextDouble()*10.0))/10.0;    //Taking user input and round it up to the nearest 10th
             double c= (f-32)*5/9;                                                                 //Converting F to C
              c= Math.round(c*10.0)/10.0;                                                   //Rounding C to the nearest 10th
-            System.out.println("Your dgree in Fehrenhite is "+f);
-            System.out.println("Your dgree in Celsius  is "+c );
+            System.out.println("Your degree in Fehrenhite is "+f);
+            System.out.println("Your degree in Celsius  is "+c );
 
             
        }
