@@ -1,0 +1,33 @@
+Write a one paragraph description of the assignment that includes the following:
+ • What was the problem you were tasked with solving?
+ • How did you go about solving the problem? 
+• What is an API and how useful was it in completing this assignment?
+
+The lab objective is to write a Java program that takes Fahrenheit degrees  from the user and converts it to a celsius degree. My approach focused on  storing  the Fahrenheit
+temperature in the F variable using the Scanner object, then storing the converted value  in a new double value named C. To take the input from the user I imported  
+the Scanner object. For the rounding, I used Math.round to round the number by multiplying it by 10.0, then divide it by 10.0 to get one digit after the decimal. 
+Application programming interface (API) is a set of predefined rules and specifications. It was useful in this project because accessing Oracle API allowed me to 
+learn more about Scanner class and Math class to use them effectively without the need to fully understand how they work.
+
+
+
+
+ What does the pseudo-code for this assignment look like?
+Main ()
+{
+	Print (“Enter a Fahrenheit degree”);
+double f = Math.round((Input.nextDouble()*10.0))/10.0;
+double c= (f-32)*5/9;
+	c= Math.round(c*10.0)/10.0;   
+	Print (Your degree in Fehrenhite is "+f);
+	Print (Your degree in Celsius  is "+c);
+}
+
+• . What is the return type of the format method for a DecimalFormat object?
+Formats a double to produce a string 
+https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html
+• What is the error that gets thrown from the Type Conversion section of this handout? 
+When declaring a double value to format method , because the format method doesn't return a double.
+• Describe what “#,##0.0” does when used as a parameter for DecimalFormat. 
+In the expression “#,##0.0” the #tills us to print a digit if provided, or nothing otherwise. The 0 tills us to print a digit if provided or 0 if otherwise.
+Providing this information,  we are tilling DecimalFormat  to print two zeros after and before the decimal.
