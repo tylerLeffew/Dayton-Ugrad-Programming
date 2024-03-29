@@ -1,0 +1,70 @@
+Lab 03: answers
+Lab Report / Questions Write a one paragraph description of the assignment that includes the following: 
+
+• What was the problem you were tasked with solving?
+• How did you go about solving the problem?
+ • What is a regular expression and how was it used in completing this assignment? 
+
+The objective of this assignment is to get the exact change from the user in dollars and cents. For example, if the user gave us the value of 29.83; The program should give us how many bills and cents can be divided into. I divide the structure of the code into three. Firstly, getting and formatting the input from the user. Secondly, dividing the Dollar bills into smaller bills by dividing the amount by 20 bills and dividing the remainder by the next smaller bill. Thirdly, repeating the process in the second step with cents.” Regular expressions is a sequence of characters that forms a search pattern”.W3Schools.https://www.w3schools.com/java/java_regex.asp. It was used to search for digits after and before the decimal point in the user input.
+
+Questions 
+
+1. What does the pseudo-code for this assignment look like?
+
+
+#######################################Starting
+function main();
+//Taking the values: 
+Luigi = new Scanner(System.in)
+twoDigit = new DecimalForamt(“##,#0.00”)
+print(“Enter the amount: “)
+amount = two.Digit.format(luigi.nextDouble())
+startingBill = amount.split(“\\.”)
+
+dollarBills = parseDouble(startingBill[0])
+cents = parseDouble(startingBill[1])
+
+print(amount + “$ Can be split into the following:”)
+
+//Breaking down Dollar Bills
+print(dollarBills + “ dollars in bills:”)
+billAfterChange=0
+
+print(“	”+(dollarBills / 20 ) + “twenty dollar bill(s)”)
+billAfterChange = dollarsBills %20 
+print(“	” + (billAfterChange / 	10) + “ten dollar bill(s)”)
+billAfterChange %= 10
+print(“	”+ (billAfterChange / 5)+ “ one dollar bill(s)”)
+
+//Breaking down cents
+
+print(cents + “cents in coins; ”)
+centsAfterChange = 0
+print(“	”+ (cents/25) + “quarter(s)”)
+centsAfterChange = cents $25
+print (“	”+ (centsAfterChange /10) + “ dime(s)”)
+centsAfterChange %= 10
+print(“	”+ (centsAfterChange /5)+ “ nickel(s)”)
+centsAfterChange %= 5
+print(“	”+ centsAfterCange + “ pennie(s)”)
+
+main()
+#######################ending
+
+ 2. What is the % modulo operator?
+Give the quotient after dividing two numbers.
+
+ 3. Does your code work with negative numbers? Does that even make sense? If you had to redesign the project, what would you need to check for?
+No it doesn't make sense to have a negative number. If I had to redesign the project I would add a condition for the input to be positive 
+
+if(amount >=0)
+{
+	startingBill = amount.split(“\\.”)
+
+dollarBills = parseDouble(startingBill[0])
+cents = parseDouble(startingBill[1])
+
+}else 
+print ”enter a positive value”
+amount = two.Digit.format(luigi.nextDouble())
+
