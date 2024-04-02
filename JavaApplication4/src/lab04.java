@@ -5,7 +5,6 @@ public class lab04 {
     {  
         Scanner luigi = new Scanner(System.in);
         
-        //String  sentence = "Akira Kurusu";
         
         //variables
         int  sentenceLength;
@@ -15,7 +14,7 @@ public class lab04 {
         int  sentence_E;
         int  sentence_e;
         int  sentence_I;
-       int  sentence_i;
+        int  sentence_i;
         int  sentence_O;
         int  sentence_o;
         int  sentence_U;
@@ -37,8 +36,8 @@ public class lab04 {
         sentenceLength = sentence.length();
         System.out.println("The number of charactes is "+sentenceLength+".");
         
-     //number of vowles
-   sentence_A = sentence.length()- sentence.replace("A", "").length();
+     //number of single vowles
+    sentence_A = sentence.length()- sentence.replace("A", "").length();
     System.out.println( "There is  "+sentence_A+" A`s.");
     sentence_a =  sentence.length()-  sentence.replace("a", "").length();
     System.out.println( "There is  "+ sentence_a+" a`s.");
@@ -59,19 +58,19 @@ public class lab04 {
      sentence_u =  sentence.length()-  sentence.replace("u", "").length();
     System.out.println( "There is  "+ sentence_u+" u`s.");
     
-    //number of uppercase vowles
-       System.out.println("The sentence without uppercase vowles is: "+ sentence.replaceAll("[AEIOU]", "")+".");
-         sentenceUpper =  sentenceLength -  sentence.replaceAll("[AEIOU]", "").length();
+        //number of uppercase vowles
+        System.out.println("The sentence without uppercase vowles is: "+ sentence.replaceAll("[AEIOU]", "")+".");
+        sentenceUpper =  sentenceLength -  sentence.replaceAll("[AEIOU]", "").length();
         System.out.println( "There is  "+ sentenceUpper +" uppercase vowles.");
     
         //number of lowercase vowles
-       System.out.println( "The sentence without lowercase vowles is: "+sentence.replaceAll("[aeiou]", "")+".");
-         sentenceLower =  sentenceLength -  sentence.replaceAll("[aeiou]", "").length();
+        System.out.println( "The sentence without lowercase vowles is: "+sentence.replaceAll("[aeiou]", "")+".");
+        sentenceLower =  sentenceLength -  sentence.replaceAll("[aeiou]", "").length();
         System.out.println( "There is  "+ sentenceLower+"  lowercase vowles." );
         
          //number of vowles
-       System.out.println("The sentence without vowles is: "+ sentence.replaceAll("[AEIOUaeiou]", "")+".");
-         sentenceVowels =  sentenceLength -  sentence.replaceAll("[AEIOUaeiou]", "").length();
+        System.out.println("The sentence without vowles is: "+ sentence.replaceAll("[AEIOUaeiou]", "")+"."); 
+        sentenceVowels =  sentenceLength -  sentence.replaceAll("[AEIOUaeiou]", "").length();
         System.out.println( "There is  "+ sentenceVowels+" vowel.");
     }
 }
