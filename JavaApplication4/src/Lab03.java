@@ -16,11 +16,14 @@ public class Lab03 {
 
     public static void main (String[]args){
         //Taking the values:
-        
+       
        Scanner luigi = new Scanner(System.in);
        DecimalFormat twoDigit = new DecimalFormat ("###### ,##0.00 ");
        System.out.print("Enter the amount: ");
-       
+        /*
+        *Line 27 to 30 is rephrasing a code from instanceof user in stack overflow from 
+        *https://stackoverflow.com/questions/24659262/split-float-in-java-android
+        */
         String amount = twoDigit . format ( luigi . nextDouble ());
         String[] startingBill = String.valueOf(amount).split("\\.");
    
