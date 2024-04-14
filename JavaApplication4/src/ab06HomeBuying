@@ -1,0 +1,124 @@
+/*
+ *Author: Ahmed Alharbi
+ * Date: 13/04/2024
+ *Project overview: getting the user to specify what Type of house they want to buy.
+  *Additnally, asking what is the most important room in the house and if they want
+  *an indoor garage or not.
+  *
+  *
+  *Recoures: 
+  *Chapter 03: Flow of Contorl -Branching .( Nicholas M. Stiffler).
+ */
+package lab06HomeBuying;
+
+import java.util.Scanner;
+
+enum HouseType {
+    UNKOWN, SINGLFAMILY, TOWNHOUSE, CONDOMINIUM
+}
+
+public class java {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        //String variables
+        String room;
+        String garage;
+        //Getting the user input
+        //House type
+        System.out.print("Enter the type of house you want to purches\n1. Single Family\n2.Townhouse \n3.Condominium\nYour choice? ");
+        int userHouseType = input.nextInt();
+
+        //Most important room
+        System.out.print("What is the most important room in the house ? \nKitchen =(K or k)  \nDen (D or d)\nOffice (O or o) \nMaster Bedroom (M or m) \nBathroom (B or b)\nYour choice? ");
+        String userMostImportantRoom = input.next();
+
+        //Indoor garage
+        System.out.print("Does the house have indoor garage?  \nYes (Y or y) \nNo (N or n)\n Your choice?");
+        String userGarage = input.next();
+
+        //House type Switch statment
+        switch (userHouseType) {
+            case 1:
+                System.out.println("Desired House Type: " + HouseType.SINGLFAMILY);
+                break;
+            case 2:
+                System.out.println("Desired House Type: " + HouseType.TOWNHOUSE);
+                break;
+            case 3:
+                System.out.println("Desired House Type: " + HouseType.CONDOMINIUM);
+                break;
+
+            default:
+                System.out.println("Desired House Type: " + HouseType.UNKOWN);
+                break;
+
+        }
+        //Most important room Switch statment
+        switch (userMostImportantRoom) {
+            case "K":
+                room = "Kitchen";
+                System.out.println("The most important room is " + room);
+                break;
+            case "k":
+                room = "Kitchen";
+                System.out.println("The most important room is " + room);
+                break;
+            case "D":
+                room = "Den";
+                System.out.println("The most important room is " + room);
+                break;
+            case "d":
+                room = "Den";
+                System.out.println("The most important room is " + room);
+                break;
+            case "O":
+                room = "Office";
+                System.out.println("The most important room is " + room);
+                break;
+            case "o":
+                room = "Office";
+                System.out.println("The most important room is " + room);
+                break;
+            case "M":
+                room = "Master Bedroom";
+                System.out.println("The most important room is " + room);
+                break;
+            case "m":
+                room = "Master Bedroom";
+                System.out.println("The most important room is " + room);
+                break;
+            case "B":
+                room = "Bathroom";
+                System.out.println("The most important room is " + room);
+                break;
+            default:
+                System.out.println("Most important room is not specified");
+                break;
+        }
+        //Indoor garage switch stament
+        switch (userGarage) {
+            case "Y":
+                garage = "Yes";
+                System.out.println("Has indoor garage? " + garage);
+                break;
+            case "y":
+                garage = "Yes";
+                System.out.println("Has indoor garage? " + garage);
+                break;
+            case "N":
+                garage = "No";
+                System.out.println("Has indoor garage? " + garage);
+                break;
+            case "n":
+                garage = "No";
+                System.out.println("Has indoor garage? " + garage);
+                break;
+            default:
+                System.out.println("Not specified");
+                break;
+
+        }
+
+    }
+}
