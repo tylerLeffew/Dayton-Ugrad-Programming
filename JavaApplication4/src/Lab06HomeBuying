@@ -55,40 +55,28 @@ public class java {
 
         }
         //Most important room Switch statment
-        switch (userMostImportantRoom) {
-            case "K":
+        switch (userMostImportantRoom.toUpperCase().charAt(0)) {
+            case 'K':
                 room = "Kitchen";
                 System.out.println("The most important room is " + room);
                 break;
-            case "k":
-                room = "Kitchen";
-                System.out.println("The most important room is " + room);
-                break;
-            case "D":
+            
+            case 'D':
                 room = "Den";
                 System.out.println("The most important room is " + room);
                 break;
-            case "d":
-                room = "Den";
-                System.out.println("The most important room is " + room);
-                break;
-            case "O":
+         
+            case 'O':
                 room = "Office";
                 System.out.println("The most important room is " + room);
                 break;
-            case "o":
-                room = "Office";
-                System.out.println("The most important room is " + room);
-                break;
-            case "M":
+            
+            case 'M':
                 room = "Master Bedroom";
                 System.out.println("The most important room is " + room);
                 break;
-            case "m":
-                room = "Master Bedroom";
-                System.out.println("The most important room is " + room);
-                break;
-            case "B":
+            
+            case 'B':
                 room = "Bathroom";
                 System.out.println("The most important room is " + room);
                 break;
@@ -97,23 +85,17 @@ public class java {
                 break;
         }
         //Indoor garage switch stament
-        switch (userGarage) {
-            case "Y":
+        switch (userGarage.toUpperCase().charAt(0)) {
+            case 'Y':
                 garage = "Yes";
                 System.out.println("Has indoor garage? " + garage);
                 break;
-            case "y":
-                garage = "Yes";
-                System.out.println("Has indoor garage? " + garage);
-                break;
-            case "N":
+            
+            case 'N':
                 garage = "No";
                 System.out.println("Has indoor garage? " + garage);
                 break;
-            case "n":
-                garage = "No";
-                System.out.println("Has indoor garage? " + garage);
-                break;
+                
             default:
                 System.out.println("Not specified");
                 break;
