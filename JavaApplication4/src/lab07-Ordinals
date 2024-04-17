@@ -1,0 +1,60 @@
+/*
+ *Author: Ahmed Alharbi
+ * Date: 17/04/2024
+ *Project overview: The objective of the code is to take out a number from the user
+  *between 1 and 1000, and prinitng out all the Orinals for this number
+  * Specificatiobns:
+  *-The user exit the program when they enter a negative number
+  *-Restare the program if the user input 0 or a number greater than 1000
+  *
+  *Recoures: 
+  *Chapter 04: Flow of Contorl -Loops .( Nicholas M. Stiffler).
+ */
+import java.util.Scanner;
+
+public class lab07 {
+
+    public static void main(String[] args) {
+
+        //Getting the Scanner
+        Scanner input = new Scanner(System.in);
+
+        int userNumber;
+        //a do while loop to restart the program
+        do {
+         //Getting the user input  
+            System.out.print("Enter a number : ");
+            userNumber = input.nextInt();
+            
+         // Exiting the prgram if the user input a negative number
+            if (userNumber < 0) {
+                System.out.println("Exiting the program.");
+                System.exit(0);
+            }
+            else {
+            //a for loop to print all the ordianls of the prgoram 
+                if (userNumber > 0 && userNumber <= 1000) {
+                    for (int i = 1; i <= userNumber; i++) {
+                        if (i % 10 == 1) {
+                            System.out.println(i + "st");
+                        } else if (i % 10 == 2) {
+                            System.out.println(i + "nd");
+                        } else if (i % 10 == 3) {
+                            System.out.println(i + "rd");
+                        } else {
+                            System.out.println(i + "th");
+                        }
+                    }
+                        
+                } else {
+                    //If the user input a 0 or a number greater than 1000
+                    System.out.println("The numebr is ethier 0 or greater than 1000, please enter a number between 1 and 1000");
+                    continue;
+
+                }
+            }
+
+        } while (true);
+
+    }
+}
