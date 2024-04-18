@@ -1,9 +1,9 @@
 /*
  *Author: Ahmed Alharbi
  * Date: 17/04/2024
- *Project overview: The objective of the code is to take out a number from the user
-  *between 1 and 1000, and prinitng out all the Orinals for this number
-  * Specificatiobns:
+ *Project overview: The objective of the code is to take a number from the user
+  *between 1 and 1000, and prinitng out all the ordinals for this number
+  * Specifications:
   *-The user exit the program when they enter a negative number
   *-Restare the program if the user input 0 or a number greater than 1000
   *
@@ -29,7 +29,7 @@ public class lab07 {
          // Exiting the prgram if the user input a negative number
             if (userNumber < 0) {
                 System.out.println("Exiting the program.");
-                System.exit(0);
+                break;
             }
             else {
             //a for loop to print all the ordianls of the prgoram 
