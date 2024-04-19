@@ -34,12 +34,11 @@ public class lab07 {
             else {
             //a for loop to print all the ordianls of the prgoram 
                 if (userNumber > 0 && userNumber <= 1000) {
-                    for (int i = 1; i <= userNumber; i++) {
-                        if (i % 10 == 1) {
+                   if (!((i / 10 )%10==1)&&(i%10==1)) {
                             System.out.println(i + "st");
-                        } else if (i % 10 == 2) {
+                        } else if (!((i / 10 )%10==1)&&i % 10 == 2) {
                             System.out.println(i + "nd");
-                        } else if (i % 10 == 3) {
+                        } else if (!((i / 10 )%10==1)&&i % 10 == 3) {
                             System.out.println(i + "rd");
                         } else {
                             System.out.println(i + "th");
