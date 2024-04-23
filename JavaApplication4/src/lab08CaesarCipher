@@ -1,0 +1,140 @@
+/*
+ *Author: Ahmed Alharbi
+ * Date: 23/04/2024
+ *Project overview: prompt the user to input a string , to code and
+  *decode it using Caesar Cipher method.
+  * Specifications:
+  *-Correctly recognize and deal with erroneous user input
+  *-Create the Caesar Cipher
+  *
+  *
+  *Recoures: 
+  *1-Chapter 05: Classes and Methods( Nicholas M. Stiffler).
+  *2-Crypto: Caesar Cipher explained | Java implementation(The CS Revelation) (https://www.youtube.com/watch?v=P0zMXEUvF78&t=1273s) :
+  *used the syntaxes of encoding method  24:22 as the base for encrypt, then modify it to fit the lab specification.
+  */
+import java.util.Scanner;
+
+public class lab08 {
+   
+    //Alphabet and digits
+    public static final String UPPER_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    public static final String LOWER_ALPHABET = "abcdefghijklmnopqrstuvwxyz";
+    public static final String DIGITS = "0123456789";
+    
+    
+    //precondition: The method receive  a string text and a shift key from 0 to 25
+    //postcondition: The meothd return a coded string by adding the key to the alphabet or digit index.
+    public static String encrypt(String plainText, int shiftKey) {
+        //The string were going to get from the method
+        String cipherText = "";
+        //for each digit in plain text; figure out where it is on the alphabet.
+        for (int i = 0; i < plainText.length(); i++) {  
+
+            int charIndexUpper = UPPER_ALPHABET.indexOf(plainText.charAt(i));
+            int charIndexLower = LOWER_ALPHABET.indexOf(plainText.charAt(i));
+            int charIndexDigit = DIGITS.indexOf(plainText.charAt(i));
+            int newIndex;
+            char cipherChar;
+
+            if (!(charIndexUpper < 0)) {
+                newIndex = charIndexUpper + shiftKey;
+                if (newIndex > 25) {
+                    newIndex %= 26;
+                }
+                cipherChar = UPPER_ALPHABET.charAt(newIndex);
+                cipherText += cipherChar;
+
+            } else if (!(charIndexLower < 0)) {
+                newIndex = charIndexLower + shiftKey;
+                if (newIndex > 25) {
+                    newIndex %= 26;
+                }
+                cipherChar = LOWER_ALPHABET.charAt(newIndex);
+                cipherText += cipherChar;
+
+            } else if (!(charIndexDigit < 0)) {
+                newIndex = charIndexDigit + shiftKey;
+                if (newIndex > 9) {
+                    newIndex %= 10;
+                }
+                //adding the new shift to the coded text
+                cipherChar = DIGITS.charAt(newIndex);
+                cipherText += cipherChar;
+
+            }
+        }
+
+        return cipherText;
+    }
+     //precondition: The method receive  a string text and a shift key from 0 to 25
+    //postcondition: The meothd return a decoded string by subtracting the key to the alphabet or digit index.
+    public static String decrypt(String cipherText, int shiftKey) {
+        String decodedText = "";
+
+        for (int i = 0; i < cipherText.length(); i++) {
+
+            int charIndexUpper = UPPER_ALPHABET.indexOf(cipherText.charAt(i));
+            int charIndexLower = LOWER_ALPHABET.indexOf(cipherText.charAt(i));
+            int charIndexDigit = DIGITS.indexOf(cipherText.charAt(i));
+            int newIndex;
+            char decodedChar;
+            if (!(charIndexUpper < 0)) {
+                newIndex = charIndexUpper - shiftKey;
+                if (newIndex > 25) {
+                    newIndex %= 26;
+                } else if (newIndex < 0) {
+                    newIndex += 26;
+                }
+                decodedChar = UPPER_ALPHABET.charAt(newIndex);
+                decodedText += decodedChar;
+
+            } else if (!(charIndexLower < 0)) {
+                newIndex = charIndexLower - shiftKey;
+                if (newIndex > 25) {
+                    newIndex %= 26;
+                } else if (newIndex < 0) {
+                    newIndex += 26;
+                }
+                decodedChar = LOWER_ALPHABET.charAt(newIndex);
+                decodedText += decodedChar;
+
+            } else if (!(charIndexDigit < 0)) {
+                newIndex = charIndexDigit - shiftKey;
+                if (newIndex > 9) {
+                    newIndex %= 10;
+                } else if (newIndex < 0) {
+                    newIndex += 10;
+                }
+                decodedChar = DIGITS.charAt(newIndex);
+                decodedText += decodedChar;
+
+            }
+        }
+        return decodedText;
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+       //prompting the user to input a string
+        System.out.print("Enter the String for Encyption: ");
+        String plainText = input.nextLine();
+        System.out.println("Enter a poitive integer between 0 and 25 to create our CaesarCipher");
+        int shiftKey = input.nextInt();
+        //cheking if the user input a correct key
+        if(shiftKey <0 &&shiftKey>25)
+        {
+               
+            System.out.println("Don`t be a jerk... follow directions");
+        }else{
+            //printing the coded text
+            String  codedText = encrypt(plainText,shiftKey);
+            String decodedText = decrypt(codedText,shiftKey);
+            System.out.print("The coded Text is: ");
+            System.out.println(codedText);
+            System.out.print("The decoded Text is: ");
+            System.out.println(decodedText);
+        }
+    }
+
+}
