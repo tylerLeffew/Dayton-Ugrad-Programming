@@ -1,4 +1,3 @@
-This is the repository for Darc-Arms undergrad students code.
 ## CPS 145 LABS 
 ----------
 ### Objectives:
