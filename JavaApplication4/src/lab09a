@@ -1,0 +1,35 @@
+/*
+ *Author: Ahmed Alharbi
+ * Date: 23/04/2024
+ *Project overview: prompt the user to input a string , to code and
+  *decode it using Caesar Cipher method.
+  * Specifications:
+  *-Correctly recognize and deal with erroneous user input
+  *-Create the Caesar Cipher
+  *
+  *
+  *Recoures: 
+  *1-Chapter 05: Classes and Methods( Nicholas M. Stiffler).
+  */
+public class lab09a {
+    public static void main (String []args)
+    {
+        for(int num=1;num<100;num++)
+        {
+           boolean div5 =(num% 5==0);
+           boolean end5 = (num %10==5);
+           if(div5){
+               System.out.print("Big ");
+           }
+          if(end5){
+              System.out.println("Bird ");
+          }
+          if(!div5 &&!end5)
+          {
+              System.out.print(num);
+          }
+          //newline
+          System.out.println();
+        }
+    }
+}
