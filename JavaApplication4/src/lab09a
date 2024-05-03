@@ -1,12 +1,9 @@
 /*
  *Author: Ahmed Alharbi
- * Date: 23/04/2024
- *Project overview: prompt the user to input a string , to code and
-  *decode it using Caesar Cipher method.
-  * Specifications:
-  *-Correctly recognize and deal with erroneous user input
-  *-Create the Caesar Cipher
-  *
+ * Date: 26/05/2024
+ *Project overview: Iterating over the number 1 to 100, then, print the word "Big"
+  * if the number is divisible by 5, or print the word "Bird" if the number ends 
+  * with 5. or print the number if eihter of these conditions are true.
   *
   *Recoures: 
   *1-Chapter 05: Classes and Methods( Nicholas M. Stiffler).
