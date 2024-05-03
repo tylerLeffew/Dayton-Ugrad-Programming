@@ -1,0 +1,27 @@
+/*
+ *Author: Ahmed Alharbi
+ * Date: 03/05/2024
+ *Project overview: Iterating over the number 1 to 100, then, print  the number 
+ * and the worrd " odd" if the number is odd or print "even" if the number is even.
+  *
+  *
+  *
+  *Recoures: 
+  *1-Chapter 05: Classes and Methods( Nicholas M. Stiffler).
+  */
+public class lab09a2 {
+    public static void main(String[] args)
+    {
+        for(int num =0;num<=100;num++)
+        {
+            boolean even = (num ==0) ||( num %2 ==0);
+            
+            if(even) {
+                System.out.println(num +": even");
+            }else {
+                System.out.println(num + ": odd");
+            }
+            
+        }
+    }
+}
