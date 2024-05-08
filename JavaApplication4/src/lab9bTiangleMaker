@@ -1,0 +1,52 @@
+
+import java.util.Scanner;
+import java.util.InputMismatchException;
+/∗∗
+∗ . . .
+∗
+∗ @author Nick Stiffler
+∗ @author Ahmed Alharbi
+∗
+∗ @since Oct 3 , 2016 Edited by Ahmed
+∗/
+
+public class lab9bTiangleMaker {
+/*
+ *Project overview: create a triangle 
+  * from the star symbol "*"
+  *
+  *Recoures: 
+  *1-Chapter 05: Classes and Methods( Nicholas M. Stiffler).
+  */
+    public static void main(String[] args) {
+        System.out.println("Welcome to Triangle Builder");
+        System.out.println("Enter the height of the triangle.");
+        Scanner input = new Scanner(System.in);
+        try {
+            int height = input.nextInt();
+            //
+            int width = 2 * height - 1;
+            for (int level = height; level > 0; level--) {
+                //
+                int distFromTop = (height - level);
+
+                //
+                int left = height - distFromTop;
+                int right = height + distFromTop;
+
+                for (int j = 1; j <= width; j++) {
+                    if (j < left || j > right) {
+                        System.out.print(" ");
+                    } else {
+                        System.out.print("*");
+                    }
+                }
+                System.out.println();
+            }
+            System.out.println("DONE!");
+        } catch (Exception e) {
+            System.out.println("you did not enter a valid input. Exiting. ");
+            System.exit(1);
+        }
+    }
+} 
