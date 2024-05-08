@@ -91,12 +91,14 @@ https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaA
 #### lab Report: 
  https://docs.google.com/document/d/1hu8uyYfxi8IBU6OSOWJfB9qCr4LPBf7kvPnyVf_cP1Y/edit?usp=sharing
  
-### Lab 9:
+### Lab 9a:
 --------
-#### Lab objective: 
+#### Lab objective:
+ The objective of the program is to implent if-statments in mutually exclusive and not mutually exclusive conditions.
+ 
+#### Lab source code: 
+[part one](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab09a)
 
-#### Lab source code:
-https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab09a
-#### lab Report:
-
-
+[part two](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab09a2)
+#### lab Report: 
+[click here to view the document ](https://docs.google.com/document/d/1y1zTUPBUhdhfS97NIOq0p0EgT2cbqtSDuYayd0LlsCk/edit#heading=h.qyfhvbkd1v68)
