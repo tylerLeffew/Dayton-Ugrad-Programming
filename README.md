@@ -16,22 +16,25 @@ debug software.
 #### Lab objective:
  The objective of the program is to convert from Fehrenhite to Celecus.
 
-#### Lab source code:
-https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab2Fahrenhite2Celsius.java
+#### Lab source code: 
+[The file](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab2Fahrenhite2Celsius.java
+)
+#### lab Report: 
+[click here to view the document ](https://docs.google.com/document/d/1t5kcI8V6jDk0Hmg4jNI0AF7k11aC7MmZFoN7ao7Ecus/edit#heading=h.bjxar16v4bee)
 
-#### lab Report:
-https://docs.google.com/document/d/1t5kcI8V6jDk0Hmg4jNI0AF7k11aC7MmZFoN7ao7Ecus/edit#heading=h.bjxar16v4bee
 
 ### Lab 3:
 --------
 #### Lab objective:
 The objective of the program is to give the exact change to the user based on what they input.
 
-#### Lab source code:
-https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/Lab03second_version.java
+#### Lab source code: 
+[The file](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/Lab03second_version.java
+)
+#### lab Report: 
+[click here to view the document ](https://docs.google.com/document/d/1MOxYAN5OCBwmMGwt1nHdgMEGtxBKJS3Odq3lOgeoUSw/edit?usp=sharing
+)
 
-#### lab Report:
-https://docs.google.com/document/d/1MOxYAN5OCBwmMGwt1nHdgMEGtxBKJS3Odq3lOgeoUSw/edit?usp=sharing
 
 ### Lab 4:
 --------
@@ -39,11 +42,12 @@ https://docs.google.com/document/d/1MOxYAN5OCBwmMGwt1nHdgMEGtxBKJS3Odq3lOgeoUSw/
 The objective of the program is to analyze how many lower and upper case vowels in a user string. 
 
 
-#### Lab source code:
-https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab04.java
+#### Lab source code: 
+[The file](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab04.java
+)
+#### lab Report: 
+[click here to view the document ](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab04-report.txt)
 
-#### lab Report:
-https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab04-report.txt
 
 ### Lab 5:
 --------
@@ -51,10 +55,12 @@ https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaA
 The objective of the program is to get the user to input the password " supercalifragilisticexpialidocious", to get access 
 to the program.
 
-#### Lab source code:
-https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab05.java
 
-#### lab Report: 
+
+#### Lab source code:
+[The file](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab05.java
+)
+
 
 ### Lab 6:
 --------
@@ -63,10 +69,14 @@ The objective of the program is to get the user set up a deal with the user wher
 other house specifications.
 
 #### Lab source code: 
-https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/Lab06HomeBuying
+[The file](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/Lab06HomeBuying
+)
+
 
 #### lab Report: 
-https://docs.google.com/document/d/1HI3zijR9VSVdq3I28bkwHaqrVeejODUoeHTLBXIboJY/edit
+
+[click here to view the document ](https://docs.google.com/document/d/1HI3zijR9VSVdq3I28bkwHaqrVeejODUoeHTLBXIboJY/edit
+)
 
 ### Lab 7:
 --------
@@ -75,10 +85,15 @@ https://docs.google.com/document/d/1HI3zijR9VSVdq3I28bkwHaqrVeejODUoeHTLBXIboJY/
 
 
 #### Lab source code:
-https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab07-Ordinals
+[The file](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab07-Ordinals
+)
+
 
 #### lab Report:
-https://docs.google.com/document/d/1ap-bj_zoo8QQMYmCs5Z1hkcQbrYlA_PdEug7b8d_bUo/edit?usp=sharing
+[click here to view the document ](https://docs.google.com/document/d/1ap-bj_zoo8QQMYmCs5Z1hkcQbrYlA_PdEug7b8d_bUo/edit?usp=sharing
+)
+
+
 
 ### Lab 8:
 --------
@@ -86,11 +101,14 @@ https://docs.google.com/document/d/1ap-bj_zoo8QQMYmCs5Z1hkcQbrYlA_PdEug7b8d_bUo/
  The objective of the program is to code and decode a user String in a Caesar Cipher fashion.
  
 #### Lab source code: 
-https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab08CaesarCipher
+
+[The file](https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaApplication4/src/lab08CaesarCipher
+)
 
 #### lab Report: 
- https://docs.google.com/document/d/1hu8uyYfxi8IBU6OSOWJfB9qCr4LPBf7kvPnyVf_cP1Y/edit?usp=sharing
- 
+ [click here to view the document ]( https://docs.google.com/document/d/1hu8uyYfxi8IBU6OSOWJfB9qCr4LPBf7kvPnyVf_cP1Y/edit?usp=sharing
+)
+
 ### Lab 9:
 --------
 #### Lab objective:
@@ -110,4 +128,5 @@ https://github.com/tylerLeffew/Dayton-Ugrad-Programming/blob/Ahmed-Labs145/JavaA
  
 #### Lab source code: 
 [The file](JavaApplication4/src/Lab10)
-
+#### lab Report: 
+[click here to view the document ](https://docs.google.com/document/d/1wwk0v7xK_fE7E1kZ_aNBIdnm50y_CBI0BCefjA9271g/edit?usp=sharing)
