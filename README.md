@@ -143,4 +143,11 @@ other house specifications.
 #### lab Report: 
 [click here to view the document ](https://docs.google.com/document/d/17Qz9Scv927pus8R_RlmH-vcKn3RCQJ3feChS-JT_o5U/edit)
 
+### Lab 12:
+--------
+#### Lab objective:
+ The objective of the program is to print a book information while applying encapsulation methods to the BetterBook class.
+ 
+#### Lab source code: 
+[The file](JavaApplication4/src/lab12)
 
