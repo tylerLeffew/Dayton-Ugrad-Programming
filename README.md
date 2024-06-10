@@ -141,7 +141,7 @@ other house specifications.
 [The file](JavaApplication4/src/Lab11)
 
 #### lab Report: 
-[click here to view the document ](https://docs.google.com/document/d/17Qz9Scv927pus8R_RlmH-vcKn3RCQJ3feChS-JT_o5U/edit)
+[click here to view the document ](https://docs.google.com/document/d/18wr3LzIIiIm-dXf1K-b3P3czFgn3iHddncSljXMu2wY/edit?usp=sharing)
 
 ### Lab 12:
 --------
@@ -150,4 +150,5 @@ other house specifications.
  
 #### Lab source code: 
 [The file](JavaApplication4/src/lab12)
-
+#### lab Report: 
+[click here to view the document ](https://docs.google.com/document/d/17Qz9Scv927pus8R_RlmH-vcKn3RCQJ3feChS-JT_o5U/edit?usp=sharing)
