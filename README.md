@@ -152,3 +152,11 @@ other house specifications.
 [The file](JavaApplication4/src/lab12)
 #### lab Report: 
 [click here to view the document ](https://docs.google.com/document/d/17Qz9Scv927pus8R_RlmH-vcKn3RCQJ3feChS-JT_o5U/edit?usp=sharing)
+
+### Lab 13:
+--------
+#### Lab objective:
+ The objective of the program is to compute a s calss grades by doing various actions like sorting and avarage grade.
+ 
+#### Lab source code: 
+[The file](JavaApplication4/src/lab13)
