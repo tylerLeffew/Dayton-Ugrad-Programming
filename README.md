@@ -159,4 +159,4 @@ other house specifications.
  The objective of the program is to compute a s calss grades by doing various actions like sorting and avarage grade.
  
 #### Lab source code: 
-[The file](JavaApplication4/src/lab13)
+[The file](JavaApplication4/src/Lab13)
