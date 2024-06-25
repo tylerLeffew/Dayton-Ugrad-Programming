@@ -160,3 +160,5 @@ other house specifications.
  
 #### Lab source code: 
 [The file](JavaApplication4/src/Lab13)
+
+[click here to view the document ](https://docs.google.com/document/d/1gKZIlEo7yoXpjn6otvR5ROVa03vNhjk5laSDeIwOOjQ/edit?usp=sharing)
