@@ -171,3 +171,6 @@ other house specifications.
 The objective of the program is to create a student roster string array using OOP.
 #### Lab source code: 
 [The file](JavaApplication4/src/Lab14)
+
+#### lab Report: 
+[click here to view the document ](https://docs.google.com/document/d/1vYTuoCJ9baH_xXf4XIpLg6KCmk1WfEtsVlHRzf9Zp-E/edit?usp=sharing)
