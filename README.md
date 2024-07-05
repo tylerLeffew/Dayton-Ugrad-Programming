@@ -174,3 +174,10 @@ The objective of the program is to create a student roster string array using OO
 
 #### lab Report: 
 [click here to view the document ](https://docs.google.com/document/d/1vYTuoCJ9baH_xXf4XIpLg6KCmk1WfEtsVlHRzf9Zp-E/edit?usp=sharing)
+
+### Lab 15:
+--------
+#### Lab objective:
+The objective of the program is to sort an array using selection sort method and command line input.
+#### Lab source code: 
+[The file](JavaApplication4/src/lab15)
